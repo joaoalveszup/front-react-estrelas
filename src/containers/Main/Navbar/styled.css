@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 59, 211);
+  padding: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+.linksContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}

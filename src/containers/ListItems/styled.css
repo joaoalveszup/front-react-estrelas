@@ -1,0 +1,13 @@
+.listItemsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.listItemsContent {
+  display: grid;
+  padding: 16px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+}

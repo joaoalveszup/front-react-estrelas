@@ -1,0 +1,25 @@
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemImage {
+  width: 200px;
+  height: 150px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemName {
+  font-weight: bold;
+}

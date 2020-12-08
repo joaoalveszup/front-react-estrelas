@@ -1,0 +1,23 @@
+.RegisterItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.RegisterItemForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  padding: 16px;
+  width: 30%;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
