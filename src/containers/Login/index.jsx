@@ -9,15 +9,15 @@ const Login = () => {
 
   const onSubmit = () => {
     const data = {
-      user: userValue,
-      password: passwordValue,
+      login: userValue,
+      senha: passwordValue,
     }
 
-    fetch('http://localhost:2000/login', { method: 'POST', ...headers, body: data})
+    fetch('http://localhost:8080/login', { method: 'POST', headers: headers, body: JSON.stringify(data)})
     .then(res => res.json())
     .then(
       (result) => {
-        localStorage.setItem('token', result.token)
+        localStorage.setItem('token', result.jwtToken)
       }
     )
   }

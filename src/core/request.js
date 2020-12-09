@@ -8,8 +8,9 @@ export const getAuthorization = () => {
 
 export const headers = {
   Accept: 'application/json',
+  'content-type': 'application/json',
   'Accept-Language': 'pt-BR',
   'X-Application-Id': '1',
   'X-Organization-Slug': 'estrelas',
-  ...getAuthorization()
+  //...getAuthorization()
 }
